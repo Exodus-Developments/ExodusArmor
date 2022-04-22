@@ -1,0 +1,6 @@
+main: net.exodusdev.armor.ExodusArmor
+name: ExodusArmor
+version: 1.0
+commands:
+  exodusarmor:
+    description: yes

@@ -1,0 +1,127 @@
+Armors:
+  "VEST":
+    Item:
+      Material: "DIAMOND_CHESTPLATE"
+      Name: "&3&l[&b&l!&3&l]&b Exodus Vest"
+      Lore:
+        - " "
+        - "&bInformation"
+        - "&b▎ &7Effect: &fRegeneration I"
+        - "&b▎ &7Set: &fExodus"
+        - " "
+        - "&bDescription"
+        - "&7This magical armor piece"
+        - "&7allows you to gain regeneration"
+        - "&7while you wear it!"
+        - " "
+        - "&7(( Right-Click to wear! ))"
+    Set: "EXODUS"
+    Effects:
+      - "REGENERATION;1"
+    Equip-Commands:
+      - "eco give {player} 10"
+    Remove-Commands:
+      - "eco take {player} 10"
+  "HELMET":
+    Item:
+      Material: "DIAMOND_HELMET"
+      Name: "&3&l[&b&l!&3&l]&b Exodus Helmet"
+      Lore:
+        - " "
+        - "&bInformation"
+        - "&b▎ &7Effect: &fRegeneration I"
+        - "&b▎ &7Set: &fExodus"
+        - " "
+        - "&bDescription"
+        - "&7This magical armor piece"
+        - "&7allows you to gain regeneration"
+        - "&7while you wear it!"
+        - " "
+        - "&7(( Right-Click to wear! ))"
+    Set: "EXODUS"
+    Effects:
+      - "REGENERATION;1"
+    Equip-Commands:
+      - "eco give {player} 10"
+    Remove-Commands:
+      - "eco take {player} 10"
+  "LEGGINGS":
+    Item:
+      Material: "DIAMOND_CHESTPLATE"
+      Name: "&3&l[&b&l!&3&l]&b Exodus Leggings"
+      Lore:
+        - " "
+        - "&bInformation"
+        - "&b▎ &7Effect: &fRegeneration I"
+        - "&b▎ &7Set: &fExodus"
+        - " "
+        - "&bDescription"
+        - "&7This magical armor piece"
+        - "&7allows you to gain regeneration"
+        - "&7while you wear it!"
+        - " "
+        - "&7(( Right-Click to wear! ))"
+    Set: "EXODUS"
+    Effects:
+      - "REGENERATION;1"
+    Equip-Commands:
+      - "eco give {player} 10"
+    Remove-Commands:
+      - "eco take {player} 10"
+  "BOOTS":
+    Item:
+      Material: "DIAMOND_BOOTS"
+      Name: "&3&l[&b&l!&3&l]&b Exodus Boots"
+      Lore:
+        - " "
+        - "&bInformation"
+        - "&b▎ &7Effect: &fRegeneration I"
+        - "&b▎ &7Set: &fExodus"
+        - " "
+        - "&bDescription"
+        - "&7This magical armor piece"
+        - "&7allows you to gain regeneration"
+        - "&7while you wear it!"
+        - " "
+        - "&7(( Right-Click to wear! ))"
+    Set: "EXODUS"
+    Effects:
+      - "REGENERATION;1"
+    Equip-Commands:
+      - "eco give {player} 10"
+    Remove-Commands:
+      - "eco take {player} 10"
+Sets:
+  "EXODUS":
+    Helmet: "HELMET"
+    Chestplate: "VEST"
+    Leggings: "LEGGINGS"
+    Boots: "BOOTS"
+    Effects:
+      - "REGENERATION;2"
+    Equip-Commands:
+      - "eco give {player} 5"
+    Remove-Commands:
+      - "eco take {player} 5"
+Messages:
+  "INVALID":
+    Sound:
+      Enabled: false
+      Value: "ENTITY_PIG_STEP"
+    Message:
+      Enabled: true
+      Value:
+        - "&4&l[&c&l!&4&l] &cYou need to enter a valid player and a valid armor piece."
+  "HELP":
+    Sound:
+      Enabled: false
+      Value: "ENTITY_PIG_STEP"
+    Message:
+      Enabled: true
+      Value:
+        - " "
+        - "&3&l[&b&l!&3&l] &b&lEXODUS &3&lARMOR"
+        - "&7&oCoded and configured by Sefovski"
+        - " "
+        - "&3&lCOMMANDS:"
+        - " &8» &3/exodusarmor &bgive &f<player> <armor> &8- &fGive a player a pet"
